@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dte="$(date +"%a, %B %d %H:%M"| sed 's/  / /g')"
+echo "^c#8ec07c^$dte"
+
